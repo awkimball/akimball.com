@@ -7,8 +7,8 @@ import WelcomePage from "./components/welcome-page";
 export default function Home() {
   return (
     <main className="flex justify-center min-h-screen border border-green-300 p-16">
-      {/* <WelcomePage/> */}
-      <Footer/>
+      <WelcomePage/>
+      {/* <Footer/> */}
     </main>
   );
 }
