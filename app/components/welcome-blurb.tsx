@@ -2,16 +2,16 @@
 
 import { TypeAnimation } from 'react-type-animation';
 
-export default function WelcomePage() {
+export default function WelcomeBlurb() {
 
     return (
-        <div className=" border-red-300">
+        <div className="border border-red-300 text-4xl p-1 sm:text-5xl sm:">
             <TypeAnimation
                 sequence={[
-                    'Hi...', // Types 'One'
-                    1000, // Waits 1s
-                    'Hi... I\'m Addison Kimball', // Deletes 'One' and types 'Two'
-                    2000, // Waits 2s
+                    'Hi...',
+                    1000,
+                    'Hi... I\'m Addison Kimball',
+                    2000,
                     () => {
                     console.log('Sequence completed');
                     },
@@ -19,7 +19,7 @@ export default function WelcomePage() {
                 wrapper="span"
                 cursor={true}
                 repeat={0}
-                style={{ fontSize: '2em', display: 'inline-block' }}
+                style={{  display: 'inline-block' }}
             />
         </div>
     )
