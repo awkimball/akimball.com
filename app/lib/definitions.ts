@@ -4,4 +4,5 @@ export type Link = {
     name: string;
     imageSrc: StaticImageData;
     url: string;
+    file?: boolean;
 };
